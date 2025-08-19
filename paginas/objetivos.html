@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anafer Decoraciones</title>
+  <style>
+    :root{
+      --bg: #f0fbfb;
+      --card: #ffffff;
+      --muted: #555;
+      --text: #222;
+      --accent: #00c2c7;
+      --accent-2: #5cd65c;
+      --accent-3: #66b2ff;
+      --border: #cce5e5;
+    }
+    *{ box-sizing: border-box; }
+    html, body{ margin:0; padding:0; font-family: 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); }
+    header{ background: linear-gradient(90deg, var(--accent), var(--accent-2), var(--accent-3)); color:white; padding:12px 24px; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; }
+    .logo{ display:flex; align-items:center; gap:10px; font-weight:800; font-size:22px; cursor:pointer; }
+    .logo img{ height:50px; width:50px; border-radius:50%; object-fit:cover; border:2px solid white; }
+    nav{ display:flex; gap:16px; }
+    nav a{ color:white; text-decoration:none; font-weight:600; transition:opacity .2s ease; }
+    nav a:hover{ opacity:0.8; }
+    .hero{ padding:40px 20px; text-align:center; background:linear-gradient(135deg, var(--accent-3), var(--accent)); color:white; }
+    .hero h1{ font-size:clamp(28px,4vw,40px); margin:0 0 12px; }
+    .hero p{ max-width:600px; margin:0 auto; font-size:18px; }
+    .container{ max-width: 1000px; margin: 0 auto; padding: 24px; }
+    .card{ background: var(--card); border:1px solid var(--border); border-radius:16px; padding:20px; box-shadow: 0 6px 18px rgba(0,0,0,.08); margin-bottom:20px; }
+    .card h2{ margin-top:0; color: var(--accent); }
+    footer{ text-align:center; padding:16px; background: var(--accent); color:white; margin-top:30px; display:flex; flex-direction:column; align-items:center; gap:10px; }
+    .social a{ display:inline-flex; align-items:center; gap:6px; background:white; color:var(--accent); padding:8px 14px; border-radius:20px; font-weight:600; text-decoration:none; transition:0.3s; }
+    .social a:hover{ background:var(--accent-3); color:white; }
+    .social svg{ width:18px; height:18px; }
+  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Objetivos - Anafer Decoraciones</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo" onclick="location.href='index.html'">
+      <img src="anafer.jpg" alt="Logo Anafer">
+      Anafer Decoraciones
+    </div>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="objetivos.html">Objetivos</a>
+      <a href="publico.html">Público objetivo</a>
+      <a href="mensaje.html">Mensaje principal</a>
+      <a href="tono.html">Tono</a>
+      <a href="canales.html">Canales</a>
+      <a href="presupuesto.html">Presupuesto</a>
+      <a href="plazos.html">Plazos</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Objetivos</h1>
+    <p>Transformamos cada celebración en un recuerdo inolvidable con creatividad, color y detalle.</p>
+  </section>
+
+  <div class="container">
+    <div class="card">
+      <img src="decoracion1.jpg" alt="Decoración de evento">
+      <h2>Nuestras metas estratégicas</h2>
+      <p>En Anafer Decoraciones buscamos que cada evento refleje la personalidad y estilo de nuestros clientes. Cada proyecto es una oportunidad para innovar y ofrecer decoraciones únicas que transformen cualquier espacio en un lugar lleno de magia y alegría.</p>
+      <p>Además, buscamos fortalecer nuestra presencia digital, mostrando nuestras creaciones en redes sociales y conectando emocionalmente con personas que valoran experiencias memorables y originales.</p>
+      <p>Nuestro objetivo también es garantizar un servicio de excelencia: atención personalizada, planificación eficiente y ejecución impecable para cada evento, logrando que cada cliente se sienta especial y satisfecho.</p>
+    </div>
+  </div>
+
+   <footer>
+    <div>© 2025 Anafer Decoraciones - Todos los derechos reservados</div>
+    <div class="social">
+      <a href="https://www.instagram.com/decos.anafer?igsh=MTNha2loZXp3NXVvNQ==" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.9.2 2.4.4.6.2 1 .4 1.5.9.4.4.7.9.9 1.5.2.5.3 1.2.4 2.4.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.2 1.9-.4 2.4-.2.6-.4 1-0.9 1.5-.4.4-.9.7-1.5.9-.5.2-1.2.3-2.4.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.9-.2-2.4-.4-.6-.2-1-.4-1.5-.9-.4-.4-.7-.9-.9-1.5-.2-.5-.3-1.2-.4-2.4-.1-1.3-.1-1.7-.1-4.9s0-3.6.1-4.9c.1-1.2.2-1.9.4-2.4.2-.6.4-1 .9-1.5.4-.4.9-.7 1.5-.9.5-.2 1.2-.3 2.4-.4C8.4 2.2 8.8 2.2 12 2.2m0-2.2C8.7 0 8.3 0 7 .1 5.7.1 4.8.3 4 .6c-.9.3-1.6.7-2.3 1.4S.6 3.1.3 4c-.3.8-.5 1.7-.5 3-.1 1.3-.1 1.7-.1 5s0 3.7.1 5c.1 1.3.3 2.2.6 3 .3.9.7 1.6 1.4 2.3.7.7 1.4 1.1 2.3 1.4.8.3 1.7.5 3 .6 1.3.1 1.7.1 5 .1s3.7 0 5-.1c1.3-.1 2.2-.3 3-.6.9-.3 1.6-.7 2.3-1.4.7-.7 1.1-1.4 1.4-2.3.3-.8.5-1.7.6-3 .1-1.3.1-1.7.1-5s0-3.7-.1-5c-.1-1.3-.3-2.2-.6-3-.3-.9-.7-1.6-1.4-2.3C21.6 1.3 20.9.9 20 .6c-.8-.3-1.7-.5-3-.6C15.7 0 15.3 0 12 0z"/><path d="M12 5.8a6.2 6.2 0 1 0 0 12.4 6.2 6.2 0 0 0 0-12.4zm0 10.3a4.1 4.1 0 1 1 0-8.2 4.1 4.1 0 0 1 0 8.2zm6.4-11.9a1.4 1.4 0 1 1-2.8 0 1.4 1.4 0 0 1 2.8 0z"/></svg>
+        Instagram
+      </a>
+    </div>
+  </footer>
+</body>
+</html>
